@@ -1,0 +1,50 @@
+html,body{
+     height:100%
+}
+
+h1 {
+	text-align:center;
+	text-shadow:0 0 0.5em rgba(0,0,0,0.8);
+}
+body{ 
+   background:url(morado.jpg);
+   background-attachment:fixed;
+   background-size:cover;
+}
+.caja{
+	 background: rgba(255,255,255,0.6);
+     column-count:3;
+	 column-rule:dashed; 0.1em;
+	 margin:0 auto;
+	 padding:0.5em;
+	 text-align:justify;
+	 width:60%;
+}
+
+.galeria{
+	display: flex;
+}
+.galeria div{
+	height:200px;
+	filter:grayscale(1);
+	padding:3em;
+	width: 25%;
+	transition: all linear 3s;
+
+}
+
+.galeria div:hover{
+	filter:grayscale(0);
+}
+.galeria div:nth-child(1){
+	background:url("");
+	background-size:cover;
+}
+.galeria div:nth-child(2){
+	background:url("");
+	background-size:cover;
+}
+.galeria div:nth-child(3){
+	background:url("");
+	background-size:cover;
+}
